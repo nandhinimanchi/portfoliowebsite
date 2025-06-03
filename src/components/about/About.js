@@ -15,7 +15,7 @@ const About = () => {
           <div className="about-text">
             <h2>Who am I?</h2>
             <p>
-              I'm Anuj{' '}
+              I'm Nandhini Manchikalapudi{' '}
               <span role="img" aria-label="lightning">
                 😄
               </span>{' '}
@@ -30,7 +30,7 @@ const About = () => {
               <span role="img" aria-label="lightning">
                 ⚡
               </span>{' '}
-              I have done <b>MCA</b> from <b>Lovely Professional University.</b>
+              I am a senior <b>BSBA</b> Management Information Systems student at <b>San Jose State University.</b>
             </p>
             <p>
               <span role="img" aria-label="lightning">
