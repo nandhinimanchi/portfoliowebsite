@@ -22,7 +22,6 @@ const Contact = () => {
           </a>
 
          
-          </a>
         </div>
       </Bounce>
     </Section>
