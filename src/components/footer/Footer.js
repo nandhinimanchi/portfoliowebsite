@@ -6,11 +6,11 @@ const Footer = () => {
     <footer>
       <p className="copyright">
         <span role="img" aria-label="thinking">
-          ❤️{' '}
+          {' '}
         </span>
-        Thanks for visiting!{' '}
+        Thank you for visiting!{' '}
         <span role="img" aria-label="thinking">
-          ❤️
+          
         </span>
       </p>
     </footer>
