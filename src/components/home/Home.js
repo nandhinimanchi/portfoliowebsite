@@ -18,12 +18,12 @@ const Home = () => {
         <div className={`greeting${!imageLoaded ? ' hide' : ''}`}>
           <img
             className="profile"
-            alt="Anuj's profile"
+            alt="Nandhini's profile"
             src={profile}
             onLoad={() => setImageLoaded(true)}
           />
           <h1 className="greeting-text">
-            Hi, I'm <span className="name">Anuj Singh</span>.{' '}
+            Hi, I'm <span className="name">Nandhini Manchikalapudi</span>.{' '}
             <span className="wave-emoji" role="img" aria-label="waving hand">
               👋
             </span>
@@ -32,9 +32,9 @@ const Home = () => {
             <Typewriter
               options={{
                 strings: [
-                  'I like to develop new things',
-                  'I love learning new tech.',
-                  'I love meeting new people.',
+                  'I turn insights into action.',
+                  'I thrive at the intersection of business and tech.',
+                  'I build solutions that create real impact.',
                 ],
                 autoStart: true,
                 loop: true,
@@ -45,13 +45,7 @@ const Home = () => {
             />
           </h1>
           <Bounce cascade>
-            <div className="resume-container">
-              <a
-                href="https://drive.google.com/file/d/1_zgFdpLQLzz3T2k9NcAwFwxtVj2irtgv/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Download Resume
+          
               </a>
             </div>
           </Bounce>
